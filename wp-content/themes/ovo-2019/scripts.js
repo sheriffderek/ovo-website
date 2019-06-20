@@ -29,6 +29,13 @@ foldUps.forEach( function(area) {
 });
 
 
+const menuToggle = document.querySelector('.menu-toggle');
+
+menuToggle.addEventListener('click', function() {
+  alert('Would open a menu');
+});
+
+
 // bodyElement.classList.add('closed');
 
 // setTimeout( function() {

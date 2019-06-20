@@ -3,12 +3,13 @@
     </main>
 
 
-<!--     <footer class='page-section site-footer'>
+    <footer class='page-section site-footer'>
     <div class='inner-column'>
 
+      footer?
 
     </div>
-    </footer> -->
+    </footer>
 
     <?php wp_footer(); ?>
   </body>

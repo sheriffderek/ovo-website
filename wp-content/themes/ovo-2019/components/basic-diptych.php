@@ -3,7 +3,8 @@
   $textContent = get_sub_field('text_content');
   $image = get_sub_field('image_content')['url'];
   $imageAlt = get_sub_field('image_content')['alt'];
-  $position = get_sub_field('position');
+  $position = get_sub_field('position_type');
+  $type = get_sub_field('diptych_type');
   $color = get_sub_field('custom_color');
 
   if ($color) {
@@ -12,7 +13,7 @@
 ?>
 
 
-<aside class='<?= $position ?>' style='<?= $styles ?>'>
+<aside class='xx <?= $position ?> <?= $type ?>' style='<?= $styles ?>'>
   <div class='half text'>
     <?= $textContent ?>
   </div>

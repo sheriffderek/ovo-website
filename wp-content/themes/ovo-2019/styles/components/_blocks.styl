@@ -9,8 +9,10 @@
       align-items: center
     .lockup
       max-width: 400px
+    .info
+      flex-column()
     .introduction
-      margin-top: $pad*2
+      //
     .services
       background: alpha($black, .5)
       padding: $pad
@@ -20,9 +22,26 @@
       .list
         margin-top: $pad
         //
-        //
+    @media $break-point-0-2
+      .introduction
+        margin-top: $pad*3
+      .services
+        margin-top: $pad*3
+    @media $break-point-2
+      .info
+        flex-row()
+        align-items: flex-start
+        margin-top: $pad*4
+      .introduction
+        margin-top: 0
+      .services
+        min-width: 240px
+        margin-left: $pad*3
+        
+
   &.basic-diptych
     //
+    border: 1px solid alpha($alternate, .5)
     .inner-column
       padding-top: 0
       padding-bottom: 0
@@ -41,6 +60,7 @@
     @media $break-point-2
       aside
         flex-row()
+        align-items: center
         &.left
           flex-direction: row-reverse
         &.right

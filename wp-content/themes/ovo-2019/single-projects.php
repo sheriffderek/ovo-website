@@ -10,7 +10,7 @@
           $brand = the_field('project_lockup')['url'];
         ?>
 
-        <section class='page-section'>
+        <section class='page-section modules'>
           <?php include('components/page-section-loop.php'); ?>
         </section>
 

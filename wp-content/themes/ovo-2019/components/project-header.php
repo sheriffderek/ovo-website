@@ -11,17 +11,19 @@
   <img src='<?= $lockup ?>' alt='<?= $lockupAlt ?>' />
 </figure>
 
-<article class='introduction'>
-  <?= $introduction ?>
-</article>
+<section class='info'>
+  <article class='introduction'>
+    <?= $introduction ?>
+  </article>
 
-<aside class='services'>
-  <h3 class='heading'>Project Services</h3>
+  <aside class='services'>
+    <h3 class='heading'>Project Services</h3>
 
-  <div class='list'>
-    <?= $servicesList ?>
-  </div>
-</aside>
+    <div class='list'>
+      <?= $servicesList ?>
+    </div>
+  </aside>
+</section>
 
 <aside>
   <?php 

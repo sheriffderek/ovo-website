@@ -29,16 +29,47 @@
         </div>
         </section>
 
+
+
+      <?php elseif( get_row_layout() == 'image_fill' ): ?>
+        <?php
+          $image = get_sub_field('image')['url'];
+        ?>
+        <section class='page-section block image-fill full-width'>
+        <div class='inner-column'>
+          <figure>
+            <img src='<?= $image ?>' alt='' />
+          </figure>
+        </div>
+        </section>
       <?php endif;
+
+
 
     endwhile;
 
   else :
 
-      // no layouts found
+      ?>
+      
+        
+
+      <?php
 
   endif;
 
   ?>
+
+<?php else: ?>
+
+  <section class='page-section'>
+  <div class='inner-column'>
+    
+    <h1 class='t'><?php the_title(); ?></h1>
+
+    <p>No modules here yet...</p>
+
+  </div>
+  </section>
 
 <?php endif; ?>
