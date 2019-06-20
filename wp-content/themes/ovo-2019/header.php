@@ -9,11 +9,20 @@
   
     <header class='page-section site-header'>
     <div class='inner-column'>
-      
-      <h1>Office vs. Office</h1>
+
+      <h1 class='visually-hidden'>Office vs. Office</h1>
+
+      <a href='/landing' class='home-link'>
+        <figure class='logo'>
+          <?php include('graphics/logo.php'); ?>
+        </figure>
+      </a>
 
       <?php // require('components/header-menu.php'); ?>
 
+      <button class='menu-toggle'>
+        <?php echo icon('bam'); ?>
+      </button>
     </div>
     </header>
 

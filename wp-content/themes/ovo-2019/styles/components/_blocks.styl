@@ -1,0 +1,49 @@
+
+.block
+  //
+  //
+  &.project-header
+    //
+    .inner-column
+      flex-column()
+      align-items: center
+    .lockup
+      max-width: 400px
+    .introduction
+      margin-top: $pad*2
+    .services
+      background: alpha($black, .5)
+      padding: $pad
+      color: $white
+      .heading
+        calm-voice()
+      .list
+        margin-top: $pad
+        //
+        //
+  &.basic-diptych
+    //
+    .inner-column
+      padding-top: 0
+      padding-bottom: 0
+    aside
+      flex-column()
+      &.left
+        //
+      &.right
+        //
+    .half
+      flex-basis: 50%
+    .text
+      padding: $pad
+      h2
+        calm-voice()
+    @media $break-point-2
+      aside
+        flex-row()
+        &.left
+          flex-direction: row-reverse
+        &.right
+          //
+      .half
+        flex-basis: 50%

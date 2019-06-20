@@ -1128,12 +1128,96 @@ p a {
     content: '5';
   }
 }
+.site-header .inner-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.site-header .logo {
+  width: 100%;
+  max-width: 50px;
+}
 .site-footer {
   background: #444;
   color: #efefef;
 }
 .site-footer .inner-column {
   padding-bottom: 1.2rem;
+}
+.block.project-header .inner-column {
+  flex-direction: column;
+  align-items: center;
+}
+.block.project-header .lockup {
+  max-width: 400px;
+}
+.block.project-header .introduction {
+  margin-top: 1.2rem;
+}
+.block.project-header .services {
+  background: rgba(17,17,17,0.5);
+  padding: 0.6rem;
+  color: #efefef;
+}
+.block.project-header .services .heading {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+@media screen and (min-width: 400px) {
+  .block.project-header .services .heading {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .block.project-header .services .heading {
+    font-size: 28px;
+  }
+}
+.block.project-header .services .list {
+  margin-top: 0.6rem;
+}
+.block.basic-diptych .inner-column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.block.basic-diptych aside {
+  flex-direction: column;
+}
+.block.basic-diptych .half {
+  flex-basis: 50%;
+}
+.block.basic-diptych .text {
+  padding: 0.6rem;
+}
+.block.basic-diptych .text h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+@media screen and (min-width: 400px) {
+  .block.basic-diptych .text h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .block.basic-diptych .text h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .block.basic-diptych aside {
+    display: flex;
+    flex-direction: row;
+  }
+  .block.basic-diptych aside.left {
+    flex-direction: row-reverse;
+  }
+  .block.basic-diptych .half {
+    flex-basis: 50%;
+  }
 }
 .theme-name {
   background: linear-gradient(90deg, #d2c9e3 0%, #adc8e9 100%);
@@ -1144,4 +1228,40 @@ p a {
   font-weight: light;
   line-height: 1.4;
   color: rgba(17,17,17,0.8);
+}
+.theme-name .home-link {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.theme-name button {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.theme-name .tax h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+@media screen and (min-width: 400px) {
+  .theme-name .tax h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .theme-name .tax h2 {
+    font-size: 28px;
+  }
+}
+.theme-name .tax p {
+  margin-top: 0.6rem;
+}
+.theme-name .tax p em {
+  font-style: italic;
+}
+.theme-name .tax .x {
+  margin-top: 1.2rem;
 }

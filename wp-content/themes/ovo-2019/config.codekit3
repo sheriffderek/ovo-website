@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/404.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/404.php",
+		"oF": 0
+		},
+	"/components/basic-diptych.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/components/basic-diptych.php",
+		"oF": 0
+		},
 	"/components/header-menu.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -25,6 +41,14 @@
 		"oAP": "/components/page-section-loop.php",
 		"oF": 0
 		},
+	"/components/project-header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/components/project-header.php",
+		"oF": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -39,6 +63,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/functions.php",
+		"oF": 0
+		},
+	"/graphics/logo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/graphics/logo.php",
 		"oF": 0
 		},
 	"/header.php": {
@@ -193,14 +225,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/single-project.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/single-project.php",
-		"oF": 0
 		},
 	"/single-projects.php": {
 		"cB": 0,
@@ -598,6 +622,14 @@
 		"oAP": "/styles/temp-styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/taxonomy-services.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/taxonomy-services.php",
+		"oF": 0
 		},
 	"/under-construction.php": {
 		"cB": 0,

@@ -6,18 +6,12 @@
     <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
 
+        <?php
+          $brand = the_field('project_lockup')['url'];
+        ?>
+
         <section class='page-section'>
-        <div class='inner-column'>
-
-          <header>
-            <h1><?php the_title(); ?></h1>
-          </header>
-
-          <article>
-            <?php the_content(); ?>
-          </article>
-
-        </div>
+          <?php include('components/page-section-loop.php'); ?>
         </section>
 
       <?php endwhile; ?>
