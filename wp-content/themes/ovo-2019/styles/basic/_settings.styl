@@ -1,0 +1,81 @@
+
+//// $variables
+
+// $color
+$black = #111
+$white = #efefef
+
+$gray         = lighten($black, 50%) 
+$gray-light   = lighten($gray, 50%)
+$gray-dark    = darken($gray, 50%)
+$gray-lighter = lighten($gray-light, 90%)
+
+// variations
+// $gray-light     = tint($gray, 50%)
+// $gray-dark      = shade($gray, 50%)
+
+$color = #ff0066
+$color = #d8cb48
+// $color = orange
+$color-light = lighten($color, 25%)
+$color-dark  = darken($color, 30%)
+
+$highlight = lightgreen
+$highlight-light = lighten($highlight, 65%)
+$highlight-dark = darken($highlight, 45%)
+
+$alternate = pink
+$alternate-light = lighten($alternate, 25%)
+$alternate-dark = darken($alternate, 25%)
+
+// $spacing units
+$pad    = .6rem
+$v = $pad
+$h = $pad
+$gutter = $pad // ??
+
+// $borders and lines
+$thin  = 1px
+$thick = 3px
+
+
+
+svg *
+  fill: currentColor
+
+// Don't you dare use these classes in standard markup...
+.svg-color-light
+  color: $color-light
+
+.svg-color
+  color: $color
+
+.svg-color-dark
+  color: $color-dark
+
+.svg-highlight-light
+  color: $highlight-light
+
+.svg-highlight
+  color: $highlight
+
+.svg-highlight-dark
+  color: $highlight-dark
+  
+.svg-alternate-light
+  color: $alternate-light
+
+.svg-alternate
+  color: $alternate
+
+.svg-alternate-dark
+  color: $alternate-dark
+
+.svg-gray-light
+  color: $gray-light
+
+.svg-gray
+  color: $gray
+
+.svg-gray-dark
+  color: $gray-dark
