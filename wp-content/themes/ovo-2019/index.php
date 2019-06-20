@@ -28,18 +28,16 @@
       
       <header class='page-header'>
         <article class='content'>
-          <h1 class='page-title'>Welcome!</h1>
-
-          <aside class='video-player'>
-            <?php $videoId = '337547173'; ?>
-
-            <iframe src="https://player.vimeo.com/video/<?php echo $videoId; ?>" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          </aside>
+<!--           <h1 class='page-title'>Welcome!</h1> -->
 
           <?php the_content(); ?>
         </article>
       </header>
       
+      
+      <?php include('landing-blocks.php'); ?>
+      
+
     </div>
     </section>
   <?php } ?>

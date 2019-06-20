@@ -10,6 +10,8 @@
     <header class='page-section site-header'>
     <div class='inner-column'>
       
+      <h1>Office vs. Office</h1>
+
       <?php // require('components/header-menu.php'); ?>
 
     </div>

@@ -170,22 +170,22 @@ svg * {
   fill: currentColor;
 }
 .svg-color-light {
-  color: #e2d876;
+  color: #ddd6ea;
 }
 .svg-color {
-  color: #d8cb48;
+  color: #d2c9e3;
 }
 .svg-color-dark {
-  color: #a69a23;
+  color: #8c74b7;
 }
 .svg-highlight-light {
-  color: #d8f9d8;
+  color: #e2ecf7;
 }
 .svg-highlight {
-  color: #90ee90;
+  color: #adc8e9;
 }
 .svg-highlight-dark {
-  color: #1cb61c;
+  color: #2f69b0;
 }
 .svg-alternate-light {
   color: #ffd0d8;
@@ -347,7 +347,7 @@ div[role='button'] {
   overflow: visible;
   background: #efefef;
   padding: 1.2rem 1.8rem;
-  color: #d8cb48;
+  color: #d2c9e3;
   min-width: 220px;
   text-align: center;
   text-transform: uppercase;
@@ -397,7 +397,7 @@ input[type='submit'][role='button']:hover,
 input[type='button'][role='button']:hover,
 input[type='reset'][role='button']:hover,
 div[role='button']:hover {
-  background: #d8cb48;
+  background: #d2c9e3;
   color: #efefef;
 }
 button.switch,
@@ -429,7 +429,7 @@ div[role='switch'] {
   width: 44px;
   height: 44px;
   overflow: hidden;
-  color: #d8cb48;
+  color: #d2c9e3;
 }
 button.switch:hover,
 a.switch:hover,
@@ -472,7 +472,7 @@ input[type='submit'][role='switch']:hover,
 input[type='button'][role='switch']:hover,
 input[type='reset'][role='switch']:hover,
 div[role='switch']:hover {
-  color: #a69a23;
+  color: #8c74b7;
 }
 button.async .text,
 a.async .text,
@@ -503,7 +503,7 @@ div.async .text {
   background: #111;
 }
 .loading-indicator.highlight .spinner {
-  background: #90ee90;
+  background: #adc8e9;
 }
 .loading-indicator.dark .spinner {
   background: #444;
@@ -512,7 +512,7 @@ div.async .text {
   background: #efefef;
 }
 .loading-indicator.color .spinner {
-  background: #d8cb48;
+  background: #d2c9e3;
 }
 @-moz-keyframes sk-rotateplane {
   0% {
@@ -737,40 +737,40 @@ p a {
   content: '#f9f9f9';
 }
 .color-pallet .color-list li.color-light {
-  background: #e2d876;
+  background: #ddd6ea;
 }
 .color-pallet .color-list li.color-light .hex:after {
-  content: '#e2d876';
+  content: '#ddd6ea';
 }
 .color-pallet .color-list li.color {
-  background: #d8cb48;
+  background: #d2c9e3;
 }
 .color-pallet .color-list li.color .hex:after {
-  content: '#d8cb48';
+  content: '#d2c9e3';
 }
 .color-pallet .color-list li.color-dark {
-  background: #a69a23;
+  background: #8c74b7;
 }
 .color-pallet .color-list li.color-dark .hex:after {
-  content: '#a69a23';
+  content: '#8c74b7';
 }
 .color-pallet .color-list li.highlight-light {
-  background: #d8f9d8;
+  background: #e2ecf7;
 }
 .color-pallet .color-list li.highlight-light .hex:after {
-  content: '#d8f9d8';
+  content: '#e2ecf7';
 }
 .color-pallet .color-list li.highlight {
-  background: #90ee90;
+  background: #adc8e9;
 }
 .color-pallet .color-list li.highlight .hex:after {
-  content: '#90ee90';
+  content: '#adc8e9';
 }
 .color-pallet .color-list li.highlight-dark {
-  background: #1cb61c;
+  background: #2f69b0;
 }
 .color-pallet .color-list li.highlight-dark .hex:after {
-  content: '#1cb61c';
+  content: '#2f69b0';
 }
 .color-pallet .color-list li.alternate-light {
   background: #ffd0d8;
@@ -797,7 +797,7 @@ p a {
 .color-pallet .color-list li.texture.color {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4543/noise.png");
   background-size: 100px;
-  background-color: #d8cb48;
+  background-color: #d2c9e3;
 }
 .color-pallet .color-list li.texture.gray-light {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4543/noise.png");
@@ -807,7 +807,7 @@ p a {
 .color-pallet .color-list li.texture.highlight {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4543/noise.png");
   background-size: 100px;
-  background-color: #90ee90;
+  background-color: #adc8e9;
 }
 .xxx .style-guide-section {
   padding-bottom: 1.8rem;
@@ -856,7 +856,7 @@ p a {
 }
 .xxx .icon-list {
   overflow: auto;
-  border-left: 1px solid #1cb61c;
+  border-left: 1px solid #2f69b0;
 }
 .xxx .icon-list li {
   display: inline-block;
@@ -1036,7 +1036,7 @@ p a {
   margin-bottom: 0.6rem;
 }
 .xxx .icon-inconsistency-example svg {
-  border: 1px solid #1cb61c;
+  border: 1px solid #2f69b0;
 }
 .dev-mode h1:after,
 .dev-mode h2:after,
@@ -1136,7 +1136,7 @@ p a {
   padding-bottom: 1.2rem;
 }
 .theme-name {
-  background: linear-gradient(90deg, #ffc0cb 0%, #d8cb48 100%);
+  background: linear-gradient(90deg, #d2c9e3 0%, #adc8e9 100%);
 }
 .theme-name body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

@@ -77,6 +77,14 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
+	"/landing-blocks.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/landing-blocks.php",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -192,6 +200,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/single-project.php",
+		"oF": 0
+		},
+	"/single-projects.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/single-projects.php",
 		"oF": 0
 		},
 	"/style-guide.php": {
@@ -605,7 +621,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -2055,7 +2071,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "http://ovo:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -6,19 +6,16 @@
     <?php if ( have_posts() ) : ?>
       <?php while ( have_posts() ) : the_post(); ?>
 
+        <header>
+          <h1><?php the_title(); ?></h1>
+        </header>
+
         <article>
-          <?php the_content(); ?>asdfasfdasfd
+          <?php the_content(); ?>
         </article>
 
       <?php endwhile; ?>
     <?php endif; ?>
-
-
-    <?php if ( is_page('contact') ) { ?>
-      <a href='https://sheriffderek.consulting' target='social'>
-        @sheriffderek
-      </a>
-    <?php } ?>
 
   </section>
 
