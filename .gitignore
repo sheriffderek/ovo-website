@@ -25,3 +25,5 @@
 /wp-content/themes/*
 
 !/wp-content/themes/ovo-2019
+node_modules
+/wp-content/themes/ovo-2019/node_modules/.bin/atob
