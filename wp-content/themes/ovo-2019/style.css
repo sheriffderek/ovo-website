@@ -1255,6 +1255,9 @@ p a {
     flex-basis: 50%;
   }
 }
+.block.pattern-fill {
+  min-height: 300px;
+}
 .theme-name body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
@@ -1335,5 +1338,28 @@ p a {
 @media screen and (min-width: 700px) {
   .theme-name .t {
     font-size: 28px;
+  }
+}
+.theme-name .project-overview {
+  border: 1px solid rgba(173,200,233,0.5);
+}
+.theme-name .project-overview .left,
+.theme-name .project-overview .right {
+  border: 1px solid rgba(210,201,227,0.5);
+  padding: 0.6rem;
+}
+@media screen and (min-width: 700px) {
+  .theme-name .project-overview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .theme-name .project-overview a {
+    flex-basis: 100%;
+    text-decoration: underline;
+  }
+  .theme-name .project-overview .left,
+  .theme-name .project-overview .right {
+    flex-basis: 50%;
   }
 }

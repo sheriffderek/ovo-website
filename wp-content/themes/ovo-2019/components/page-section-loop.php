@@ -31,6 +31,19 @@
 
 
 
+      <?php elseif( get_row_layout() == 'pattern_fill' ): ?>
+        <?php
+          $image = get_sub_field('image')['url'];
+          $styles = "background-image: url(" . $image . ")";
+        ?>
+        <section class='page-section block pattern-fill' style='<?= $styles ?>'>
+        <div class='inner-column'>
+          
+        </div>
+        </section>
+
+
+
       <?php elseif( get_row_layout() == 'image_fill' ): ?>
         <?php
           $image = get_sub_field('image')['url'];

@@ -27,10 +27,14 @@ $the_query = new WP_Query( $args );
           
         </figure>
 
+        <aside class='project-overview'>
+          <a href='<?php the_permalink(); ?>'>
+            <h2 class='title'><?php the_title(); ?></h2>
+          </a>
+          <div class='left'>LEFT</div>
 
-        <a href='<?php the_permalink(); ?>'>
-          <h2 class='title'><?php the_title(); ?></h2>
-        </a>
+          <div class='right'>RIGHT</div>
+        </aside>
 
       </article>
     </li>
