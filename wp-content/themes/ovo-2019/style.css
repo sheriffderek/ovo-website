@@ -1363,3 +1363,6 @@ p a {
     flex-basis: 50%;
   }
 }
+.theme-name p em {
+  font-style: italic;
+}
