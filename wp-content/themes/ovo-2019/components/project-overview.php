@@ -7,6 +7,7 @@
   } else {
     $title = get_the_title();
   }
+  $subheading = get_field('project_subheading');
 ?>
 
 <aside class='project-overview'>
@@ -28,7 +29,7 @@
         </h2>
 
         <h3 class='subheading'>
-          subheading here
+          <?= $subheading ?>
         </h3>
       </a>
     </div>
