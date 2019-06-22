@@ -13,7 +13,7 @@
 
       <?php if( get_row_layout() == 'project_header' ): ?>
 
-        <section class='page-section block project-header'>
+        <section class='page-section block project-header'><?php moduleTitle('project_header'); ?>
         <div class='inner-column'>
           <?php include('project-header.php'); ?>
         </div>
@@ -23,7 +23,7 @@
 
       <?php elseif( get_row_layout() == 'basic_diptych' ): ?>
 
-        <section class='page-section block basic-diptych'>
+        <section class='page-section block basic-diptych'><?php moduleTitle('basic_diptych'); ?>
         <div class='inner-column'>
           <?php include('basic-diptych.php'); ?>
         </div>
@@ -36,7 +36,7 @@
           $image = get_sub_field('image')['url'];
           $styles = "background-image: url(" . $image . ")";
         ?>
-        <section class='page-section block pattern-fill' style='<?= $styles ?>'>
+        <section class='page-section block pattern-fill' style='<?= $styles ?>'><?php moduleTitle('pattern_fill'); ?>
         <div class='inner-column'>
           
         </div>
@@ -48,7 +48,8 @@
         <?php
           $image = get_sub_field('image')['url'];
         ?>
-        <section class='page-section block image-fill full-width'>
+        <section class='page-section block image-fill full-width'><?php moduleTitle('image_fill'); ?>
+        
         <div class='inner-column'>
           <figure>
             <img src='<?= $image ?>' alt='' />

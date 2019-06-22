@@ -1405,3 +1405,11 @@ p a {
 .theme-name p em {
   font-style: italic;
 }
+.theme-name .module-title {
+  display: block;
+  position: absolute;
+  padding: 0.15rem 0.6rem;
+  color: #9acccc;
+  background: #111;
+  border-radius: 0.15rem;
+}

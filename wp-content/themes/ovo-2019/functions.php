@@ -69,6 +69,12 @@ function icon($name) {
 
 
 
+function moduleTitle($title) {
+    $styleGuide = is_page('style-guide');
+    if ($styleGuide) {
+        echo "<span class='module-title'>" . $title . "</span>";
+    }
+}
 
 
 
