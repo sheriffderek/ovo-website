@@ -15,31 +15,53 @@ $the_query = new WP_Query( $args );
 
   <!-- pagination here -->
 
-  <ol class='course-list'>
-  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); 
+  <ol class='landing-list'>
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-    ?>
+      <?php
+        $poster = get_field('project_poster_image')['url'];
+        $customTitle = get_field('project_custom_title');
+        if ($customTitle) {
+          $title = $customTitle;
+        } else {
+          $title = get_the_title();
+        }
+      ?>
 
-    <li class='project'>
-      <article class='content'>
+      <li class='project'>
+        <article class='content'>
 
-        <figure class='graphic'>
-          
-        </figure>
+          <aside class='project-overview'>
 
-        <aside class='project-overview'>
-          <a href='<?php the_permalink(); ?>'>
-            <h2 class='title'><?php the_title(); ?></h2>
-          </a>
-          <div class='left'>LEFT</div>
+            <div class='half visual'>
+              <figure>
+                <img src='<?= $poster ?>' alt='' />
+              </figure>
+            </div>
 
-          <div class='right'>RIGHT</div>
-        </aside>
+            <div class='half info'>
+              
+              <div class='box'>
+                <a href='<?php the_permalink(); ?>'>
+                  <h4>View project</h4>
 
-      </article>
-    </li>
+                  <h2 class='heading'>
+                    <?= $title ?>
+                  </h2>
 
-  <?php endwhile; ?>
+                  <h3 class='subheading'>
+                    subheading here
+                  </h3>
+                </a>
+              </div>
+
+            </div>
+          </aside>
+
+        </article>
+      </li>
+
+    <?php endwhile; ?>
   </ol>
 
   <!-- pagination here -->

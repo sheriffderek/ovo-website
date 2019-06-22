@@ -60,14 +60,40 @@ button
   .left, .right
     border: 1px solid alpha($color, .5)
     padding: $pad
+  .half
+    border: 1px solid alpha($alternate, .5)
+  .heading
+    calm-voice()
+  @media $break-point-0-2
+    .box
+      border: 1px solid red
+      max-width: 400px
+      margin: 0 auto
+      padding: $pad
+      transform: translate( 0, -($pad*4))
+      background: $white
   @media $break-point-2
     flex-row()
     flex-wrap: wrap
-    a
-      flex-basis: 100%
-      text-decoration: underline
-    .left, .right
+    .half
+      flex-column()
+      justify-content: center
       flex-basis: 50%
+
+    .box
+      background: $color
+      padding: $pad
+    
+.landing-list
+  //
+  @media $break-point-2
+    border: 2px solid green
+    .project
+      &:nth-of-type(2n + 2)
+        border: 1px solid red
+        .project-overview
+          flex-direction: row-reverse
+
 
 p
   em

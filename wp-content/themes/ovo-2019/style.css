@@ -1154,6 +1154,7 @@ p a {
   padding-bottom: 1.2rem;
 }
 .block.project-header .inner-column {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -1161,6 +1162,7 @@ p a {
   max-width: 400px;
 }
 .block.project-header .info {
+  display: flex;
   flex-direction: column;
 }
 .block.project-header .services {
@@ -1218,6 +1220,7 @@ p a {
   padding-bottom: 0;
 }
 .block.basic-diptych aside {
+  display: flex;
   flex-direction: column;
 }
 .block.basic-diptych .half {
@@ -1348,19 +1351,61 @@ p a {
   border: 1px solid rgba(210,201,227,0.5);
   padding: 0.6rem;
 }
+.theme-name .project-overview .half {
+  border: 1px solid rgba(255,192,203,0.5);
+}
+.theme-name .project-overview .heading {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+@media screen and (min-width: 400px) {
+  .theme-name .project-overview .heading {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .theme-name .project-overview .heading {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 699px) {
+  .theme-name .project-overview .box {
+    border: 1px solid #f00;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0.6rem;
+    transform: translate(0, -2.4rem);
+    background: #efefef;
+  }
+}
 @media screen and (min-width: 700px) {
   .theme-name .project-overview {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .theme-name .project-overview a {
-    flex-basis: 100%;
-    text-decoration: underline;
-  }
-  .theme-name .project-overview .left,
-  .theme-name .project-overview .right {
+  .theme-name .project-overview .half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-basis: 50%;
+  }
+  .theme-name .project-overview .box {
+    background: #d2c9e3;
+    padding: 0.6rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  .theme-name .landing-list {
+    border: 2px solid #008000;
+  }
+  .theme-name .landing-list .project:nth-of-type(2n + 2) {
+    border: 1px solid #f00;
+  }
+  .theme-name .landing-list .project:nth-of-type(2n + 2) .project-overview {
+    flex-direction: row-reverse;
   }
 }
 .theme-name p em {
