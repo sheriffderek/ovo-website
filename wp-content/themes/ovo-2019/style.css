@@ -1412,4 +1412,6 @@ p a {
   color: #9acccc;
   background: #111;
   border-radius: 0.15rem;
+  opacity: 0.8;
+  font-size: 12px;
 }
