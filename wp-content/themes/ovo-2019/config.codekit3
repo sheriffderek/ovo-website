@@ -49,6 +49,14 @@
 		"oAP": "/components/project-header.php",
 		"oF": 0
 		},
+	"/components/project-overview.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/components/project-overview.php",
+		"oF": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,

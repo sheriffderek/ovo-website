@@ -20,7 +20,15 @@
     <h3 class='heading'>Project Services</h3>
 
     <div class='list'>
-      <?= $servicesList ?>
+      <?php if ($servicesList) { ?>
+        <?= $servicesList ?>
+      <?php } else { ?>
+        <ul class='list'>
+          <li>Example service</li>
+          <li>Another service</li>
+          <li>And... another</li>
+        </ul>
+      <?php } ?>
     </div>
   </aside>
 </section>

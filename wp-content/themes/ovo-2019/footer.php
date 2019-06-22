@@ -6,7 +6,9 @@
     <footer class='page-section site-footer'>
     <div class='inner-column'>
 
-      footer?
+      <a href='/style-guide'>
+        style-guide
+      </a>
 
     </div>
     </footer>
