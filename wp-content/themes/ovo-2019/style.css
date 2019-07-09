@@ -1160,7 +1160,7 @@ p a {
 }
 .block.project-header .lockup {
   max-width: 400px;
-  border: 1px solid #c3c3c3;
+  border: 1px solid #f9f9f9;
 }
 .block.project-header .info {
   display: flex;
@@ -1212,9 +1212,6 @@ p a {
     min-width: 240px;
     margin-left: 1.8rem;
   }
-}
-.block.basic-diptych {
-  border: 1px solid rgba(255,192,203,0.5);
 }
 .block.basic-diptych .inner-column {
   padding-top: 0;
