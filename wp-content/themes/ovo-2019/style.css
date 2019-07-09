@@ -1302,9 +1302,6 @@ p a {
 .theme-name .tax .x {
   margin-top: 1.2rem;
 }
-.theme-name .xx .half {
-  border: 1px solid rgba(246,212,185,0.4);
-}
 .theme-name .xx.centered {
   text-align: center;
 }
@@ -1345,9 +1342,6 @@ p a {
 .theme-name .project-overview .right {
   border: 1px solid rgba(154,204,204,0.5);
   padding: 0.6rem;
-}
-.theme-name .project-overview .half {
-  border: 1px solid rgba(255,192,203,0.5);
 }
 .theme-name .project-overview .heading {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
