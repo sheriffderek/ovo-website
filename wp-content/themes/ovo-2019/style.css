@@ -239,7 +239,10 @@ html *:after {
   flex-direction: column;
 }
 .page-section.full-width .inner-column {
+  width: 100%;
+  max-width: 100%;
   padding: 0;
+  max-width: 1536px;
 }
 .page-content + .site-footer {
   margin-top: 12rem;
