@@ -9,6 +9,8 @@
 
   if ($color) {
     $styles = 'background: ' . $color . '; color: white;';
+  } else {
+    $styles = '';
   }
 ?>
 
